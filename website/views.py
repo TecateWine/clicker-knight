@@ -6,3 +6,12 @@ from django.http import HttpResponse
 
 def index(request):
     return render(request, 'website/index.html')
+
+
+def about(request):
+    """View function for home page of site."""
+    return render(
+        request,
+        'website/about.html',
+        {'title': 'About'}
+    )
