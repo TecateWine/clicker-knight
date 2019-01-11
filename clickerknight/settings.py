@@ -28,7 +28,11 @@ SECRET_KEY = '8y)0+k13lv%m-0m%fxmfh7q7=op41aln6m1q8ptfh=8$a-67ut'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['staging.clickerknightgame.com']
+ALLOWED_HOSTS = [
+    'staging.clickerknightgame.com',
+    '68.183.161.254',
+
+]
 
 
 # Application definition
